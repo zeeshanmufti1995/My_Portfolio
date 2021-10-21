@@ -188,6 +188,8 @@ body{
     display: flex;
     align-items: flex-end;
     cursor:pointer;
+    background-image: url(../images/ARTICLE-calculator-image-680x500.jpeg);
+    background-position: center;
     
 }
 
@@ -296,6 +298,42 @@ body{
     text-align: ;
     
 }
+
+.footer-content{
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+    
+
+.footer-content ul{
+    display: flex;
+}
+
+.footer-content ul li{
+    padding-right: 50px;
+    list-style: none;
+    font-size: 26px;
+    
+  
+}
+.footer-content ul li a{
+    color: white;
+    padding-right: 100px;
+}
+
+.footer-content h1{
+    color: black;
+    padding-left: 106px;
+    border-right: 3px black solid;
+    text-align: end;
+    padding-right: 20px;
+    font-size: 50px;
+}
+    
 
 
 
