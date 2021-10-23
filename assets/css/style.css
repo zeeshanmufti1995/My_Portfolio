@@ -112,26 +112,42 @@ p {
   padding-right: 10px;
 }
 
+.box{
+  transition: 1s;
+}
+
+.box:hover{
+  transform: scale(1.1);
+}
+
 .box1 {
   border: 2px solid black;
-  width: 72%;
-  background-image: url(../image/gym.jpeg);
-  background-position: center;
-  background-size: cover;
+  width: 73%;
   height: 400px;
   margin-left: 20px;
   display: flex;
   flex-direction: row;
   align-items: end;
 }
+.box1-img{
+  width: 100%;
+  height: 396px;
+  
+}
+a{
+  width: 100%;
+  display: inline-block;
+ 
 
+}
 .work-heading1 {
   background: maroon;
-  width: 20%;
+  width: 15%;
   height: 50px;
   margin-bottom: 50px;
   display: flex;
   align-items: center;
+  position: absolute;
 }
 .work-heading1 h5 {
   font-size: 15px;
@@ -140,6 +156,7 @@ p {
 }
 
 .box2 {
+  border: 2px solid black;
   background-image: url(../image/quiz.png);
   background-position: center;
   background-size: cover;
@@ -149,7 +166,9 @@ p {
   margin-top: 20px;
   display: flex;
   align-items: end;
+  transition: 1s;
 }
+
 
 .work-heading2 {
   background-color: maroon;
@@ -166,6 +185,7 @@ p {
 }
 
 .box3 {
+  border: 2px solid black;
   background-image: url(../image/puzzle.jpeg);
   background-position: center;
   background-size: cover;
@@ -191,6 +211,7 @@ p {
 }
 
 .box4 {
+  border: 2px solid black;
   background-image: url(../image/mobile\ applicatio.jpeg);
   background-position: center;
   background-size: cover;
@@ -217,6 +238,7 @@ p {
 }
 
 .box5 {
+  border: 2px solid black;
   background-image: url(../image/desktop\ appi.jpeg);
   background-position: center;
   background-size: cover;
@@ -447,7 +469,7 @@ p {
   }
 
   .work-heading4 {
-    width: 20%;
+    width: 30%;
     border: 3px solid black;
   }
 
