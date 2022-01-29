@@ -167,6 +167,22 @@ p {
   height: 396px;
   
 }
+
+.box1-2 {
+  border: 2px solid var(--border-color);
+  width: 73%;
+  height: 400px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  margin-top: 20px;
+}
+.box1-2-img{
+  width: 100%;
+  height: 396px;
+  
+}
 a{
   width: 100%;
 }
@@ -481,6 +497,11 @@ a{
     margin: 10px auto 50px auto;
   }
   .box1 {
+    border: 3px solid var(--border-color);
+    width: 100%;
+    margin: 10px 10px;
+  }
+  .box1-2 {
     border: 3px solid var(--border-color);
     width: 100%;
     margin: 10px 10px;
